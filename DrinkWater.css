@@ -1,0 +1,110 @@
+*{
+    font-family: cursive;
+    font-weight: 900;
+    font-size: 17px;
+}
+
+body{
+    background-color: blue;
+}
+
+.cup{
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    width: 2rem;
+    height: 5rem;
+}
+.heading{
+    color: white;
+}
+
+#bigCup{
+    width: 10rem;
+    height: 14rem;
+    background-color: white;
+    color: blue;
+    box-sizing: border-box;
+    border: 4px solid darkblue;
+    transition: background-color 0.7s;
+}
+.bigCupActive{
+    background-color: rgb(0, 153, 255);
+}
+.heading h1{
+    font-size: 20px;
+}
+
+#remaining{
+    /* background-color: black; */
+    position: relative;
+    bottom: 14px;
+    height: 100%;
+    width: 100%;
+    transition: height 0.4s;
+}
+#filled{
+    /* background-color: blueviolet; */
+    height: 0%;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    border-bottom-left-radius: 1.75rem;
+    border-bottom-right-radius: 1.75rem;
+    box-sizing: border-box;
+    transition: bottom 0.1s,background-color 0.5s,height 0.4s;
+}
+
+.filledActive{
+    background-color: rgb(0, 153, 255);
+}
+
+.container{
+    position: relative;
+    bottom: 1rem;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#otherCups{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.smallCup{
+    width: 3rem;
+    height: 5rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    background-color: white;
+    color: blue;
+    border: 4px solid darkblue;
+    transition: background-color 0.4s,color 0.4s;
+}
+.smallCup h2{
+    margin-top: 1.7rem;
+    font-size: 12px;
+}
+/* Active class for the click effect */
+.smallCupActive{
+    background-color: rgb(0, 153, 255);
+    color: white;
+}
+.fourCups{
+    display: flex;
+    margin-bottom: 1rem;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    height: 1rem;
+}
